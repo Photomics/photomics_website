@@ -11777,6 +11777,23 @@ section#contact form#contactForm :-ms-input-placeholder {
   object-fit: cover;
 }
 
+.figure-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.single-figure {
+  max-width: 100%;
+  margin: 10px;
+}
+
+.single-figure img {
+  width: 100%;
+  height: auto;
+}
+
+
 
 .footer {
   text-align: center;
