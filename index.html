@@ -29,7 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
                         <li class="nav-item"><a class="nav-link" href="#expertise">Expertise</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#products">Products + Services</a></li>
                         <!-- <li class="nav-item"><a class="nav-link" href="#about">About</a></li> -->
                         <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
                         <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -87,14 +87,14 @@
         <section class="page-section bg-dark" id="products" style="text-align: center;">
             <div class="container">
                 <div class="text-center">
-                    <h2 class="section-heading text-uppercase" style="color:Ivory;">Products</h2>
+                    <h2 class="section-heading text-uppercase" style="color:Ivory;">Products + Services</h2>
                     <h3 class="section-subheading text-muted" style="color:Ivory;">Click to learn more</h3>
                 </div>
                 <div class="row">
 
 
                     <!-- pycro-manager -->
-                    <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="col-lg-6 col-sm-6 mb-4">
                         <!-- Portfolio item 1-->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#opensource">
@@ -105,14 +105,14 @@
                                 style="height: 300px; object-fit: cover;" />
                             </a>
                             <div class="portfolio-caption">
-                                <div class="portfolio-caption-heading" style="color:Ivory;">Open source: Micro-Manager</div>
+                                <div class="portfolio-caption-heading" style="color:Ivory;">Open source: Micro-Manager + Pycro-Manager</div>
                                 <!-- <div class="portfolio-caption-subheading text-muted" style="color:Ivory;">Illustration</div> -->
                             </div>
                         </div>
                     </div>
 
                     <!-- assays -->
-                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                    <div class="col-lg-6 col-sm-6 mb-4 mb-lg-0">
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#assays">
                                 <div class="portfolio-hover">
@@ -129,10 +129,12 @@
                         </div>
                     </div>
 
-                    
+                    </div>
+                    <div class="row">
+
                   
                     <!-- Label free -->
-                    <div class="col-lg-4 col-sm-6 mb-4">
+                    <div class="col-lg-6 col-sm-6 mb-4">
                         <!-- Portfolio item 2-->
                         <div class="portfolio-item">
                             <a class="portfolio-link" data-bs-toggle="modal" href="#labelfree">
@@ -150,11 +152,27 @@
                     </div>
 
 
+                    <!-- Label free -->
+                    <div class="col-lg-6 col-sm-6 mb-4">
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#otherservices">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/consulting.jpg" alt="..." 
+                                style="height: 300px; object-fit: cover;" />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading" style="color:Ivory;">Special projects</div>
+                                <!-- <div class="portfolio-caption-subheading text-muted">Label-free microscopy</div> -->
+                            </div>
+                        </div>
+                    </div>
+
+
                 </div>
             </div>
 
-            <h6 style="color: Ivory; font-family: Arial, sans-serif;">Looking for something else within our expertise? 
-                We're happy to discuss.</h6>
 
         </section>
 
@@ -329,7 +347,7 @@
         </div>
 
 
-        <!-- Portfolio item 1 modal popup-->
+        <!-- Label free modal popup-->
         <div class="portfolio-modal modal fade" id="labelfree" tabindex="-1" role="dialog" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
@@ -367,6 +385,43 @@
             </div>
         </div>
 
+
+                <!-- other services modal popup-->
+        <div class="portfolio-modal modal fade" id="otherservices" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Special projects</h2>
+                  
+                                   
+                                    <p>We're always happy to discuss other projects outside of those listed here that make use of our expertise. Please reach out to "info [at] photomics [dot] ai"</p>
+
+
+                    
+                          <!--                <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/consulting.jpg" alt="..." />
+                                            </section> -->
+
+
+
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+ 
     
 
         <div class="portfolio-modal modal fade" id="assays" tabindex="-1" role="dialog" aria-hidden="true">
@@ -395,7 +450,7 @@
                                     
 
                                     <section>
-                                        <h4>Example: <b>PhotomicsPrint</b></h4>
+                                        <h4>Example: <b>LightPrint</b></h4>
 
                                         <figure>
                                             <img class="responsive-gif modal-gif" src="assets/video/photomics_dmd.gif" alt="Animated GIF">                       
@@ -408,7 +463,7 @@
                                         </p>
 
                                         <p>
-                                            <b>PhotomicsPrint</b> is a software package that enables the design and application of patterns
+                                            <b>LightPrint</b> is a software package that enables the design and application of patterns
                                             over large areas by spatially tiling them across multiple positions of an XY Stage. It includes calibration
                                             algorithms, a graphical user interface, and an API for integrating with other software packages and/or 
                                             automated control using computer vision.
